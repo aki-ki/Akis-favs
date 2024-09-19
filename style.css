@@ -1,0 +1,101 @@
+html {
+  /* background-color: #6e0f07; */
+  background-image: linear-gradient(to bottom, #6e0f07, rgb(158, 87, 87));
+}
+body {
+  margin: auto;
+  width: 1000px;
+  border-radius: 50px;
+  background-color: #c77a7e;
+  color: rgb(0, 0, 0);
+  padding: 50px;
+  border: 3px, dotted, #000000;
+  font-family: "gloria Hallelujah";
+  font-weight: 900;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  box-shadow: #000000;
+}
+
+div {
+  align-items: center;
+  display: flex;
+  margin: auto;
+  align-items: center;
+  margin-left: 100px;
+}
+hr {
+  color: black;
+}
+a:hover {
+  color: white;
+  text-decoration: none;
+
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+a:visited {
+  color: #911106;
+}
+a {
+  color: black;
+}
+.games {
+  margin-left: -100px;
+}
+h1 {
+  background-color: #e0e0ec;
+  padding: 10px;
+  border-radius: 10px;
+  border: 3px, dotted, black;
+}
+h2 {
+  text-align: center;
+  background-color: #ddddec;
+  padding: 0px;
+  border: 3px, dotted, black;
+
+  border-radius: 10px;
+}
+.Guitar {
+  margin: auto;
+  /* transform: rotate(440deg); */
+  text-align: center;
+  transition: 10s;
+}
+#yamaha {
+  transform: rotate(10deg);
+}
+
+.Guitar:hover {
+  transition: 10s;
+  transform: rotate(10000deg);
+  /* transition: width 20s; */
+}
+#gibsonn {
+  margin: -100px;
+}
+.floweysilly {
+  width: 500px;
+}
+.floweyscary {
+  margin-left: 100px;
+  width: 300px;
+}
+ul {
+  list-style: circle;
+}
+.pet {
+  width: 500px;
+  border-radius: 50px;
+  transition: width 2s;
+}
+.pet:hover {
+  width: 1000px;
+  transition: width 2s;
+}
+h3 {
+  background-color: white;
+  border-radius: 10px;
+  margin-right: 600px;
+  padding-left: 30px;
+}
